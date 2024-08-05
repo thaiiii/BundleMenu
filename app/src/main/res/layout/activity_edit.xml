@@ -1,0 +1,30 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EditActivity"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/txtid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Id"
+        android:inputType="none"
+        android:enabled="false" />
+
+    <EditText
+        android:id="@+id/txtname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Name"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/btnsave"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lưu" />
+</LinearLayout>
